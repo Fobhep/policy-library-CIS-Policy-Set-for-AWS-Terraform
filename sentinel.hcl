@@ -112,7 +112,7 @@ policy "s3-block-public-access-account-level" {
 
 policy "s3-block-public-access-bucket-level" {
   source = "./policies/s3/s3-block-public-access-bucket-level.sentinel"
-  enforcement_level = "advisory"
+  enforcement_level = "hard-mandatory"
 }
 
 policy "s3-require-mfa-delete" {
